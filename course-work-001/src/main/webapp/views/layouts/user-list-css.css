@@ -1,0 +1,27 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4; /* Light gray */
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    th, td {
+        border: 1px solid #dddddd;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #333333; /* Dark gray */
+        color: #ffffff; /* White */
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Lighter gray */
+    }
